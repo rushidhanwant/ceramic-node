@@ -1,0 +1,27 @@
+{
+  "name": "ceramic-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rushidhanwant/ceramic-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rushidhanwant/ceramic-node/issues"
+  },
+  "homepage": "https://github.com/rushidhanwant/ceramic-node#readme",
+  "resolutions": {
+    "graphql": "^16.5.0"
+  },
+  "dependencies": {
+    "@composedb/cli": "^0.3.0",
+    "pnpm": "^7.17.1"
+  }
+}

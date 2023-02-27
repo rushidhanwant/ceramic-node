@@ -1,0 +1,13 @@
+type SocialPlatform 
+  @loadModel(
+     id: "kjzl6hvfrbw6caui5orjlcheo3rja5iyiq0nwfonaimhl9gajuhc21ih5xdnrf0"
+    ) {
+  id: ID!
+}
+
+type Community 
+  @loadModel(
+     id: "kjzl6hvfrbw6caebh3bzzbyw7fq73yrxqnu43jb25rgg7d8nsn4x66aso8nv0tk"
+    ) {
+  socialPlatforms: [SocialPlatform] @relationFrom(model: "SocialPlatform", property: "communityID")
+}

@@ -1,0 +1,6 @@
+node_modules
+client-setup.sh
+commands
+daemon-config.json
+DID.key
+private.key
