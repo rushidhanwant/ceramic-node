@@ -1,13 +1,13 @@
 type Thread
   @loadModel(
-    id: "kjzl6hvfrbw6c9yw50ot3ss8vdz49lss2kbbumi5lktsb7f77ye1p09d41kwtq7"
+    id: "kjzl6hvfrbw6c7tuznyikjds1bmmbap2k38vxjaggtey8wgnuxfadn0cps2frpf"
   ) {
   id: ID!
 }
 
 type User 
   @loadModel(
-     id: "kjzl6hvfrbw6c5oio537f0rda417siim3n85xp9wxojx8nvcnhcnmhdx7icqlbh"
+     id: "kjzl6hvfrbw6cbc7kl0eijlv9e5gall76dqqqd10dnyxe5paag1kr2curfo1c32"
     ) {
   id: ID!
 }

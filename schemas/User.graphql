@@ -7,6 +7,7 @@ type Platform{
 
 type User @createModel(accountRelation: SINGLE, description: "DevNode User") {
   author: DID! @documentAccount
+  walletAddress: String! @string(maxLength: 100)
   userPlatforms: [Platform] @list(maxLength: 2)
   createdAt: DateTime! @string(maxLength: 100)
 }
