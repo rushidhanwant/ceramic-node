@@ -12,7 +12,7 @@
 `mv daemon.config.txt daemon.config.json`
 
 `mv DID.txt DID.key`
-`cp private.txt private.key`
+`mv private.txt private.key`
 
 
 `./deamon-setup.sh`
