@@ -1,21 +1,26 @@
 # ceramic-node
 
-`yarn global add @ceramicnetwork/cli`
+```
+yarn global add @ceramicnetwork/cli
 
-`yarn install`
+yarn global add @composedb/cli
+
+yarn install
+```
 
 # add private key and did key
 
+```
+cp commands.txt commands
 
-`mv commands.txt commands`
+cp daemon.config.txt daemon.config.json
 
-`mv daemon.config.txt daemon.config.json`
+cp DID.txt DID.key
 
-`mv DID.txt DID.key`
-`mv private.txt private.key`
+cp private.txt private.key
+```
 
+# daemon setup
+./deamon-setup.sh
 
-`./deamon-setup.sh`
-
-`./client-setup.sh`
 
