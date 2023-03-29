@@ -1,0 +1,7 @@
+type ThreadTag @loadModel(id: "add-stream-id") {
+  id: ID!
+}
+
+type Thread @loadModel(id: "add-stream-id") {
+ tags: [ThreadTag] @relationFrom(model: "ThreadTag", property: "threadId")
+}

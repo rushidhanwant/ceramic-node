@@ -1,0 +1,7 @@
+type Thread @loadModel(id: "add-stream-d") {
+  id: ID!
+}
+
+type Community @loadModel(id: "add-stream-d") {
+ threads: [Thread] @relationFrom(model: "Thread", property: "communityId")
+}

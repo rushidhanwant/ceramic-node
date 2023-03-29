@@ -1,0 +1,14 @@
+type Thread @loadModel(id: "add-stream-id) {
+  id: ID!
+}
+
+type Tag @loadModel(id: "add-stream-id"){
+  id: ID!
+}
+
+type ThreadTag @createModel(accountRelation: LIST, description: "Tag and Thread Relation") {
+  threadId: StreamID! @documentReference(model: "Thread")
+  thread: Thread! @relationDocument(property: "threadId")
+  tagId: StreamID! @documentReference(model: "Tag")
+  tag: Tag! @relationDocument(property: "tagId")
+}

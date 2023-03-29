@@ -1,0 +1,7 @@
+type CommunityTag @loadModel(id: "add-stream-id") {
+  id: ID!
+}
+
+type Community @loadModel(id: "add-stream-id") {
+ tags: [CommunityTag] @relationFrom(model: "CommunityTag", property: "communityId")
+}

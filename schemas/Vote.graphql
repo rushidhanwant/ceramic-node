@@ -1,0 +1,15 @@
+type Comment @loadModel(id: "add-stream-id") {
+  id: ID!
+}
+
+type User @loadModel(id: "add-stream-id") {
+  id: ID!
+}
+
+type Vote @createModel(accountRelation: SINGLE, description: "Vote for Comments") {
+  commentId: StreamID! @documentReference(model: "Comment")
+  comment: Comment! @relationDocument(property: "commentId")
+  userId: StreamID! @documentReference(model: "User")
+  user: User! @relationDocument(property: "userId")
+  vote: Boolean!
+}

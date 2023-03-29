@@ -1,0 +1,14 @@
+type Community @loadModel(id: "add-stream-id") {
+  id: ID!
+}
+
+type Tag @loadModel(id: "add-stream-idr"){
+  id: ID!
+}
+
+type CommunityTag @createModel(accountRelation: LIST, description: "Tag and Community Relation") {
+  communityId: StreamID! @documentReference(model: "Community")
+  Community: Community! @relationDocument(property: "communityId")
+  tagId: StreamID! @documentReference(model: "Tag")
+  tag: Tag! @relationDocument(property: "tagId")
+}
