@@ -23,11 +23,11 @@
     },
     "state-store": {
       "mode": "fs",
-      "local-directory": "~/.ceramic/statestore/"
-    },
-    "indexing": {
-      "db": "sqlite:../../.ceramic/indexing.sqlite",
-      "allow-queries-before-historical-sync": true
-    }
+      "local-directory": "./.ceramic/statestore/"
+  },
+  "indexing": {
+    "db": "sqlite:./.ceramic/indexing.sqlite",
+    "allow-queries-before-historical-sync": true
+  }
   }
   
