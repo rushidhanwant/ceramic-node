@@ -1,6 +1,6 @@
 type SocialPlatform 
   @loadModel(
-     id: "kjzl6hvfrbw6c726uxs60oywkxn9wv9c8ybysxnppw8cuqzcbw9pssrmcok1nyi"
+     id: "kjzl6hvfrbw6c8rynmuffm9z6x74twyiul75fzq446qdnitf4sutd4omusufj8p"
     ) {
   id: ID!
 }

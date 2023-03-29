@@ -7,7 +7,7 @@ type Community
 
 type User 
   @loadModel(
-     id: "kjzl6hvfrbw6c8d3hhuhc0wnfz35z0zt068367m75ocjxgtpzjk95yaxqxjwjju"
+     id: "kjzl6hvfrbw6c7bb4p0j3klw2qzn2zzbjjk9rapp67f39np1vgvu3vh4x571cgr"
     ) {
   id: ID!
 }
@@ -22,5 +22,5 @@ type SocialPlatform
     platform: String! @string(maxLength: 2000) 
     platformId: String! @string(maxLength: 2000) 
     communityName: String! @string(maxLength: 2000) 
-    communityAvatar: String! @string(maxLength: 2000) 
+    communityAvatar: String! @string(maxLength: 10000) 
 }

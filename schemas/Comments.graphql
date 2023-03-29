@@ -1,15 +1,20 @@
 type Thread
   @loadModel(
-    id: "kjzl6hvfrbw6cacg7g3hky17flj3qrom0948a2a9zzt6hv15d9x4c2iqar5i4j3"
+    id: "kjzl6hvfrbw6cbcbkoc2tflkbi40odrneuxo33d7b71usiztx52oh206pj5hgmt"
   ) {
   id: ID!
 }
 
 type User 
   @loadModel(
-     id: "kjzl6hvfrbw6c8d3hhuhc0wnfz35z0zt068367m75ocjxgtpzjk95yaxqxjwjju"
+     id: "kjzl6hvfrbw6c7bb4p0j3klw2qzn2zzbjjk9rapp67f39np1vgvu3vh4x571cgr"
     ) {
   id: ID!
+}
+
+type SocialCommentId{
+    platformName:String! @string(maxLength: 2000)
+    threadId:String! @string(maxLength: 2000)
 }
 
 type Comment
@@ -19,7 +24,8 @@ type Comment
   author: DID! @documentAccount
   userId: StreamID! @documentReference(model: "User")
   user: User! @relationDocument(property: "userId")
-  text: String! @string(maxLength: 2000)
+  text: String! @string(maxLength: 15000)
+  socialCommentIds: [SocialCommentId]! @list(maxLength: 5)
   createdFrom: String! @string(maxLength: 2000)
   createdAt: DateTime! @string(maxLength: 100)
 }
