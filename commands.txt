@@ -18,4 +18,3 @@ composedb composite:compile ./gen/DevNode.json ./gen/runtime-composite.json --ce
 composedb composite:compile ./gen/DevNode.json src/definition.ts --ceramic-url=http://0.0.0.0:7007
 composedb composite:deploy ./gen/DevNode.json --ceramic-url=http://0.0.0.0:7007 --did-private-key= add-your-private-key
 composedb composite:models ./gen/DevNode.json --ceramic-url=http://0.0.0.0:7007
-npx @composedb/cli graphql:server --ceramic-url=http://localhost:7007 --graphiql --port=5001 ./gen/runtime-composite.json --did-private-key= add-your-private-key
