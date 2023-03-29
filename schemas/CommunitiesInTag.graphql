@@ -1,0 +1,7 @@
+type CommunityTag @loadModel(id: "kjzl6hvfrbw6c99w0jm9acudw9ooeuqth0jpdh8zvbhszsc1081594y0nlh26wi") {
+  id: ID!
+}
+
+type Tag @loadModel(id: "kjzl6hvfrbw6c9vcpdyfmsdh6btj4zs1cw6beyievasiio28lffvh1q30lxewmr") {
+ communities: [CommunityTag] @relationFrom(model: "CommunityTag", property: "tagId")
+}
