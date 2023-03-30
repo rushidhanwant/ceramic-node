@@ -3,5 +3,5 @@ type UserCommunity @loadModel(id: "add-stream-id") {
 }
 
 type Community @loadModel(id: "add-stream-id") {
- users: [UserCommunity] @relationFrom(model: "UserCommunity", property: "userId")
+ users: [UserCommunity] @relationFrom(model: "UserCommunity", property: "communityId")
 }
