@@ -1,0 +1,1 @@
+npx @composedb/cli graphql:server --ceramic-url=$2 --graphiql --port=5001 ./gen/runtime-composite.json --did-private-key=$1
