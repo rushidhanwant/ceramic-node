@@ -1,4 +1,4 @@
-type CommunityTag @loadModel(id: "kjzl6hvfrbw6c99w0jm9acudw9ooeuqth0jpdh8zvbhszsc1081594y0nlh26wi") {
+type CommunityTag @loadModel(id: "kjzl6hvfrbw6c5oknkt2qu1x0uj7o5dt7v75g3cwunlfy272yfblqwi8xevz6p2") {
   id: ID!
 }
 

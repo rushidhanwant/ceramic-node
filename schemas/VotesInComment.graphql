@@ -1,7 +1,7 @@
-type Vote @loadModel(id: "kjzl6hvfrbw6caqn1drsty06zkr9zkwh6xfr1ftwmhumi2i5ea1mh3pohvr5un4") {
+type Vote @loadModel(id: "kjzl6hvfrbw6c8s9rkikhwifs0dhf2w2p2l3n99ab48gbzfpg4krrps7ms8h96d") {
   id: ID!
 }
 
-type Comment @loadModel(id: "kjzl6hvfrbw6c7m99tcqo54n4zbxh5rp1whdm0v8oqx4x7mykqppr10k7amgmia") {
+type Comment @loadModel(id: "kjzl6hvfrbw6c861dcnfqt4fdnkhfdtp1l7fxmil0j9c6hu012dsv1n8iwxy7h4") {
  votes: [Vote] @relationFrom(model: "Vote", property: "commentId")
 }

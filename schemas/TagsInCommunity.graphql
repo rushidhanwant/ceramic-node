@@ -1,7 +1,7 @@
-type CommunityTag @loadModel(id: "kjzl6hvfrbw6c99w0jm9acudw9ooeuqth0jpdh8zvbhszsc1081594y0nlh26wi") {
+type CommunityTag @loadModel(id: "kjzl6hvfrbw6c5oknkt2qu1x0uj7o5dt7v75g3cwunlfy272yfblqwi8xevz6p2") {
   id: ID!
 }
 
-type Community @loadModel(id: "kjzl6hvfrbw6c629yrauoazzxq5do3wsar23vf2n7dy8jpswcpbka0yvee7zks1") {
+type Community @loadModel(id: "kjzl6hvfrbw6c6elmefzm05abjsbalbz3fschl9ysstcccagzmq8y6izdyoeu3z") {
  tags: [CommunityTag] @relationFrom(model: "CommunityTag", property: "communityId")
 }

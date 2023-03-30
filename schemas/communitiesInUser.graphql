@@ -1,0 +1,7 @@
+type UserCommunity @loadModel(id: "kjzl6hvfrbw6c8dhf7ruslo18xvlmqg02lxiu0vgn8ifpnrv3e6oa7i4qc5iyn9") {
+  id: ID!
+}
+
+type User @loadModel(id: "kjzl6hvfrbw6c7bb4p0j3klw2qzn2zzbjjk9rapp67f39np1vgvu3vh4x571cgr") {
+ communities: [UserCommunity] @relationFrom(model: "UserCommunity", property: "communityId")
+}

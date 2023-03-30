@@ -1,4 +1,4 @@
-type Comment @loadModel(id: "kjzl6hvfrbw6c7m99tcqo54n4zbxh5rp1whdm0v8oqx4x7mykqppr10k7amgmia") {
+type Comment @loadModel(id: "kjzl6hvfrbw6c861dcnfqt4fdnkhfdtp1l7fxmil0j9c6hu012dsv1n8iwxy7h4") {
   id: ID!
 }
 

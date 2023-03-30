@@ -1,4 +1,4 @@
-type ThreadTag @loadModel(id: "kjzl6hvfrbw6c64o0eczu04x0w3hopyupef0hcojmoej7ev489azkluc2368r19") {
+type ThreadTag @loadModel(id: "kjzl6hvfrbw6c8pxvwx7iy4nx8gr6q7xd3n2rq9si6aiuzpgljd2g1qz6a5ycmq") {
   id: ID!
 }
 

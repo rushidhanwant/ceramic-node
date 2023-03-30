@@ -1,6 +1,6 @@
 type Community 
   @loadModel(
-     id: "kjzl6hvfrbw6c629yrauoazzxq5do3wsar23vf2n7dy8jpswcpbka0yvee7zks1"
+     id: "kjzl6hvfrbw6c6elmefzm05abjsbalbz3fschl9ysstcccagzmq8y6izdyoeu3z"
     ) {
   id: ID!
 }
