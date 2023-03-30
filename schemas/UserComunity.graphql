@@ -1,0 +1,14 @@
+type User @loadModel(id: "add-stream-id") {
+  id: ID!
+}
+
+type Community @loadModel(id:"add-stream-id"){
+  id: ID!
+}
+
+type UserCommunity @createModel(accountRelation: LIST, description: "") {
+  communityId: StreamID! @documentReference(model: "Community")
+  community: Community! @relationDocument(property: "communityId")
+  userId: StreamID! @documentReference(model: "User")
+  user: User! @relationDocument(property: "userId")
+}

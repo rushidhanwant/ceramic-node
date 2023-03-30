@@ -1,0 +1,7 @@
+type UserCommunity @loadModel(id: "add-stream-id") {
+  id: ID!
+}
+
+type User @loadModel(id: "add-stream-id") {
+ communities: [UserCommunity] @relationFrom(model: "UserCommunity", property: "communityId")
+}
