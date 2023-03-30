@@ -3,5 +3,5 @@ type UserCommunity @loadModel(id: "kjzl6hvfrbw6c8dhf7ruslo18xvlmqg02lxiu0vgn8ifp
 }
 
 type Community @loadModel(id: "kjzl6hvfrbw6c6elmefzm05abjsbalbz3fschl9ysstcccagzmq8y6izdyoeu3z") {
- users: [UserCommunity] @relationFrom(model: "UserCommunity", property: "userId")
+ users: [UserCommunity] @relationFrom(model: "UserCommunity", property: "communityId")
 }
