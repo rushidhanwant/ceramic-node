@@ -1,6 +1,6 @@
 type Comment 
   @loadModel(
-     id: "kjzl6hvfrbw6c861dcnfqt4fdnkhfdtp1l7fxmil0j9c6hu012dsv1n8iwxy7h4"
+     id: "kjzl6hvfrbw6c9hb5aobiugacs6rz5brj23l4tmiphxvqdljcgnea2q7whnuj61"
     ) {
   id: ID!
 }
