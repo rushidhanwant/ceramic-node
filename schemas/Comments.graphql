@@ -14,7 +14,7 @@ type User
 
 type SocialCommentId{
     platformName:String! @string(maxLength: 2000)
-    threadId:String! @string(maxLength: 2000)
+    commentId:String! @string(maxLength: 2000)
 }
 
 type Comment
