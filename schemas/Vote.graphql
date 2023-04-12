@@ -6,7 +6,7 @@ type User @loadModel(id: "kjzl6hvfrbw6c7bb4p0j3klw2qzn2zzbjjk9rapp67f39np1vgvu3v
   id: ID!
 }
 
-type Vote @createModel(accountRelation: SINGLE, description: "Vote for Comments") {
+type Vote @createModel(accountRelation: LIST, description: "Vote for Comments") {
   commentId: StreamID! @documentReference(model: "Comment")
   comment: Comment! @relationDocument(property: "commentId")
   userId: StreamID! @documentReference(model: "User")

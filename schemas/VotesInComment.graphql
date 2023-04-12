@@ -1,4 +1,4 @@
-type Vote @loadModel(id: "kjzl6hvfrbw6cb47323n7ie6z3vg5na6wq9wbbczyyumxmmjcjmed5xngfc0isu") {
+type Vote @loadModel(id: "kjzl6hvfrbw6c5n20mpcscgnzrk06h1ieemw83w78iz23asxirfdebvw7a6n2dn") {
   id: ID!
 }
 
