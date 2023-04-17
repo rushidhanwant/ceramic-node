@@ -1,0 +1,10 @@
+type Vote 
+  @loadModel(
+     id: "kjzl6hvfrbw6c5n20mpcscgnzrk06h1ieemw83w78iz23asxirfdebvw7a6n2dn"
+    ) {
+  id: ID!
+}
+
+type Comment @loadModel(id: "kjzl6hvfrbw6c9hb5aobiugacs6rz5brj23l4tmiphxvqdljcgnea2q7whnuj61") {
+  votesCount: Int! @relationCountFrom(model: "Vote", property: "commentId")
+}
