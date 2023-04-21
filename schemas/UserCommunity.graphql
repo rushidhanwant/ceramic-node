@@ -6,7 +6,7 @@ type Community @loadModel(id:"add-stream-id"){
   id: ID!
 }
 
-type UserCommunity @createModel(accountRelation: LIST, description: "user and community relation") {
+type UserCommunity @createModel(accountRelation: LIST, description: "Realtion between community and user") {
   communityId: StreamID! @documentReference(model: "Community")
   community: Community! @relationDocument(property: "communityId")
   userId: StreamID! @documentReference(model: "User")

@@ -2,7 +2,7 @@ type Community @loadModel(id: "add-stream-id") {
   id: ID!
 }
 
-type Tag @loadModel(id: "add-stream-idr"){
+type Tag @loadModel(id: "add-stream-id"){
   id: ID!
 }
 

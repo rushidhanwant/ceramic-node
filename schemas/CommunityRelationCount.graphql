@@ -1,0 +1,18 @@
+type Thread 
+  @loadModel(
+     id: "add-stream-id"
+    ) {
+  id: ID!
+}
+
+type UserCommunity 
+  @loadModel(
+     id: "add-stream-id"
+    ) {
+  id: ID!
+}
+
+type Community @loadModel(id: "add-stream-id") {
+  threadCount: Int! @relationCountFrom(model: "Thread", property: "communityId")
+  userCount: Int! @relationCountFrom(model: "UserCommunity", property: "communityId")
+}

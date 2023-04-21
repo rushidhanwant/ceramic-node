@@ -1,4 +1,4 @@
-type Thread @loadModel(id: "add-stream-id) {
+type Thread @loadModel(id: "add-stream-id") {
   id: ID!
 }
 

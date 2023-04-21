@@ -1,0 +1,10 @@
+type Vote 
+  @loadModel(
+     id: "add-stream-id"
+    ) {
+  id: ID!
+}
+
+type Comment @loadModel(id: "add-stream-id") {
+  votesCount: Int! @relationCountFrom(model: "Vote", property: "commentId")
+}

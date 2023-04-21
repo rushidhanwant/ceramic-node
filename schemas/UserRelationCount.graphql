@@ -1,0 +1,34 @@
+type Comment 
+  @loadModel(
+     id: "add-stream-id"
+    ) {
+  id: ID!
+}
+
+type Thread 
+  @loadModel(
+     id: "add-stream-id"
+    ) {
+  id: ID!
+}
+
+type UserCommunity 
+  @loadModel(
+     id: "add-stream-id"
+    ) {
+  id: ID!
+}
+
+type Vote 
+  @loadModel(
+     id: "add-stream-id"
+    ) {
+  id: ID!
+}
+
+type User @loadModel(id: "add-stream-id") {
+  commentCount: Int! @relationCountFrom(model: "Comment", property: "userId")
+  threadCount: Int! @relationCountFrom(model: "Thread", property: "userId")
+  communityCount: Int! @relationCountFrom(model: "UserCommunity", property: "userId")
+  votesCount: Int! @relationCountFrom(model: "Vote", property: "userId")
+}

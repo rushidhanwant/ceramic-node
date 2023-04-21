@@ -1,0 +1,10 @@
+type Comment 
+  @loadModel(
+     id: "add-stream-id"
+    ) {
+  id: ID!
+}
+
+type Thread @loadModel(id: "add-stream-id") {
+  commentCount: Int! @relationCountFrom(model: "Comment", property: "threadId")
+}
