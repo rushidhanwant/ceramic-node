@@ -4,27 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d00c4bf-c5b9-403f-a316-3dae5bd039ca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/gen/Composite.Comments.json" beforeDir="false" afterPath="$PROJECT_DIR$/gen/Composite.Comments.json" afterDir="false" />
+    <list default="true" id="34991523-6d25-40df-a82a-2dd5a10d1569" name="Changes" comment="deployed updated models to ceramic">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands.sh" beforeDir="false" afterPath="$PROJECT_DIR$/commands.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commands.txt" beforeDir="false" afterPath="$PROJECT_DIR$/commands.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gen/Composite.CommentsInThread.json" beforeDir="false" afterPath="$PROJECT_DIR$/gen/Composite.CommentsInThread.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/Composite.CommunitiesInTag.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/Composite.CommunitiesInTag.json" beforeDir="false" afterPath="$PROJECT_DIR$/gen/Composite.CommunitiesInTag.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gen/Composite.CommunityTag.json" beforeDir="false" afterPath="$PROJECT_DIR$/gen/Composite.CommunityTag.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gen/Composite.PlatformsInCommunity.json" beforeDir="false" afterPath="$PROJECT_DIR$/gen/Composite.PlatformsInCommunity.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gen/Composite.SocialPlatform.json" beforeDir="false" afterPath="$PROJECT_DIR$/gen/Composite.SocialPlatform.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/Composite.TagsInThread.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/Composite.TagsInCommunity.json" beforeDir="false" afterPath="$PROJECT_DIR$/gen/Composite.TagsInCommunity.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gen/Composite.Thread.json" beforeDir="false" afterPath="$PROJECT_DIR$/gen/Composite.Thread.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/Composite.ThreadTag.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/Composite.ThreadTag.json" beforeDir="false" afterPath="$PROJECT_DIR$/gen/Composite.ThreadTag.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gen/Composite.ThreadsInCommunity.json" beforeDir="false" afterPath="$PROJECT_DIR$/gen/Composite.ThreadsInCommunity.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/Composite.ThreadsInTag.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/Composite.ThreadsInTag.json" beforeDir="false" afterPath="$PROJECT_DIR$/gen/Composite.ThreadsInTag.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gen/Composite.UserCommunity.json" beforeDir="false" afterPath="$PROJECT_DIR$/gen/Composite.UserCommunity.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/Composite.Vote.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/Composite.VotesInComment.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/Composite.communitiesInUser.json" beforeDir="false" afterPath="$PROJECT_DIR$/gen/Composite.communitiesInUser.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gen/DevNode.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/Composite.Vote.json" beforeDir="false" afterPath="$PROJECT_DIR$/gen/Composite.Vote.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/Composite.usersInCommunity.json" beforeDir="false" afterPath="$PROJECT_DIR$/gen/Composite.usersInCommunity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gen/DevNode.json" beforeDir="false" afterPath="$PROJECT_DIR$/gen/DevNode.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gen/runtime-composite.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/Vote.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/Vote.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/schemas/VotesInComment.graphql" beforeDir="false" afterPath="$PROJECT_DIR$/schemas/VotesInComment.graphql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/streamIds.json" beforeDir="false" afterPath="$PROJECT_DIR$/streamIds.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/definition.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,55 +33,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2OEtQx0jk4BCh4VRp2LEZIzrhSk" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/redpanda/Projects/ceramic-node&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ts.external.directory.path": "/Applications/WebStorm.app/Contents/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external"
   }
-}</component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+}]]></component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="2d00c4bf-c5b9-403f-a316-3dae5bd039ca" name="Changes" comment="" />
-      <created>1681137556863</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1681137556863</updated>
-      <workItem from="1681137559884" duration="66000" />
-      <workItem from="1681210089129" duration="358000" />
-      <workItem from="1681286446723" duration="2429000" />
-    </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
